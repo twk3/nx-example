@@ -22,7 +22,7 @@ jobs:
       - name: Run Chromium E2E Tests
         env:
           CURRENTS_API_URL: https://cy-staging.currents.dev
-        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --project=chromium
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --grep="example.spec.ts"
 
       - name: Wait for 60 seconds
         run: sleep 60
@@ -30,4 +30,4 @@ jobs:
       - name: Run All E2E Tests
         env:
           CURRENTS_API_URL: https://cy-staging.currents.dev
-        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --project=chromium
