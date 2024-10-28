@@ -1,0 +1,176 @@
+[90m[main 2024-10-25T11:44:21.368Z][0m update#setState idle
+2024-10-25 06:44:22.073 Electron[25300:38064158] +[IMKClient subclass]: chose IMKClient_Legacy
+2024-10-25 06:44:26.703 Code Helper (Renderer)[25335:38064325] CoreText note: Client requested name ".NewYork-Regular", it will get TimesNewRomanPSMT rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2024-10-25 06:44:26.703 Code Helper (Renderer)[25335:38064325] CoreText note: Set a breakpoint on CTFontLogSystemFontNameRequest to debug.
+2024-10-25 06:44:27.338 Code Helper (Renderer)[25334:38064322] CoreText note: Client requested name ".NewYork-Regular", it will get TimesNewRomanPSMT rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+2024-10-25 06:44:27.338 Code Helper (Renderer)[25334:38064322] CoreText note: Set a breakpoint on CTFontLogSystemFontNameRequest to debug.
+[90m[main 2024-10-25T11:44:46.653Z][0m Extension host with pid 25340 exited with code: 0, signal: unknown.
+[91m[main 2024-10-25T11:44:46.654Z][0m [UtilityProcessWorker]: terminated unexpectedly with code 1875528128, signal: unknown
+[90m[main 2024-10-25T11:44:51.375Z][0m update#setState checking for updates
+[90m[main 2024-10-25T11:44:51.909Z][0m update#setState idle
+2024-10-25 06:45:17.462 Code Helper (Renderer)[25335:38064325] CoreText note: Client requested name ".NewYork-Regular", it will get TimesNewRomanPSMT rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+[90m[main 2024-10-25T11:45:39.857Z][0m Extension host with pid 25341 exited with code: 0, signal: unknown.
+[91m[main 2024-10-25T11:45:39.858Z][0m [UtilityProcessWorker]: terminated unexpectedly with code 1875528128, signal: unknown
+2024-10-25 06:45:45.312 Code Helper (Renderer)[25334:38064322] CoreText note: Client requested name ".NewYork-Regular", it will get TimesNewRomanPSMT rather than the intended font. All system UI font access should be through proper APIs such as CTFontCreateUIFontForLanguage() or +[NSFont systemFontOfSize:].
+[90m[main 2024-10-25T13:16:13.038Z][0m update#setState checking for updates
+[91m[main 2024-10-25T13:16:13.097Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T13:16:13.097Z][0m update#setState idle
+[90m[main 2024-10-25T14:22:06.283Z][0m update#setState checking for updates
+[91m[main 2024-10-25T14:22:06.296Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T14:22:06.296Z][0m update#setState idle
+[90m[main 2024-10-25T15:44:10.284Z][0m update#setState checking for updates
+[90m[main 2024-10-25T15:44:12.246Z][0m update#setState idle
+[90m[main 2024-10-25T16:44:15.774Z][0m update#setState checking for updates
+[91m[main 2024-10-25T16:44:15.779Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T16:44:15.779Z][0m update#setState idle
+[90m[main 2024-10-25T17:49:58.091Z][0m update#setState checking for updates
+[91m[main 2024-10-25T17:49:58.140Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T17:49:58.140Z][0m update#setState idle
+[90m[main 2024-10-25T19:36:04.073Z][0m update#setState checking for updates
+[91m[main 2024-10-25T19:36:04.084Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T19:36:04.084Z][0m update#setState idle
+[90m[main 2024-10-25T20:37:04.083Z][0m update#setState checking for updates
+[91m[main 2024-10-25T20:37:04.088Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T20:37:04.088Z][0m update#setState idle
+[90m[main 2024-10-25T21:38:04.046Z][0m update#setState checking for updates
+[91m[main 2024-10-25T21:38:04.055Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T21:38:04.056Z][0m update#setState idle
+[90m[main 2024-10-25T22:39:04.035Z][0m update#setState checking for updates
+[91m[main 2024-10-25T22:39:04.040Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T22:39:04.040Z][0m update#setState idle
+[90m[main 2024-10-25T23:40:04.011Z][0m update#setState checking for updates
+[91m[main 2024-10-25T23:40:04.016Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-25T23:40:04.016Z][0m update#setState idle
+[90m[main 2024-10-26T00:41:03.994Z][0m update#setState checking for updates
+[91m[main 2024-10-26T00:41:04.005Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T00:41:04.005Z][0m update#setState idle
+[90m[main 2024-10-26T01:42:03.985Z][0m update#setState checking for updates
+[91m[main 2024-10-26T01:42:03.997Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T01:42:03.998Z][0m update#setState idle
+[90m[main 2024-10-26T02:43:03.966Z][0m update#setState checking for updates
+[91m[main 2024-10-26T02:43:03.977Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T02:43:03.977Z][0m update#setState idle
+[90m[main 2024-10-26T03:44:03.951Z][0m update#setState checking for updates
+[91m[main 2024-10-26T03:44:03.961Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T03:44:03.961Z][0m update#setState idle
+[90m[main 2024-10-26T04:45:03.040Z][0m update#setState checking for updates
+[91m[main 2024-10-26T04:45:03.043Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T04:45:03.043Z][0m update#setState idle
+[90m[main 2024-10-26T05:46:02.025Z][0m update#setState checking for updates
+[91m[main 2024-10-26T05:46:02.033Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T05:46:02.033Z][0m update#setState idle
+[90m[main 2024-10-26T06:48:05.918Z][0m update#setState checking for updates
+[91m[main 2024-10-26T06:48:05.923Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T06:48:05.923Z][0m update#setState idle
+[90m[main 2024-10-26T08:41:24.809Z][0m update#setState checking for updates
+[91m[main 2024-10-26T08:41:24.815Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T08:41:24.815Z][0m update#setState idle
+[90m[main 2024-10-26T11:16:57.723Z][0m update#setState checking for updates
+[91m[main 2024-10-26T11:16:57.729Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T11:16:57.729Z][0m update#setState idle
+[90m[main 2024-10-26T12:42:38.820Z][0m update#setState checking for updates
+[91m[main 2024-10-26T12:42:38.827Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T12:42:38.828Z][0m update#setState idle
+[90m[main 2024-10-26T13:43:37.850Z][0m update#setState checking for updates
+[91m[main 2024-10-26T13:43:37.854Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T13:43:37.855Z][0m update#setState idle
+[90m[main 2024-10-26T14:44:36.812Z][0m update#setState checking for updates
+[91m[main 2024-10-26T14:44:36.816Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T14:44:36.816Z][0m update#setState idle
+[90m[main 2024-10-26T15:45:35.841Z][0m update#setState checking for updates
+[91m[main 2024-10-26T15:45:35.847Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-26T15:45:35.847Z][0m update#setState idle
+[93m[main 2024-10-26T16:19:30.390Z][0m No ptyHost heartbeat after 6 seconds
+[90m[main 2024-10-26T16:46:35.925Z][0m update#setState checking for updates
+[90m[main 2024-10-26T16:46:36.812Z][0m update#setState idle
+[90m[main 2024-10-26T17:46:35.925Z][0m update#setState checking for updates
+[90m[main 2024-10-26T17:46:36.474Z][0m update#setState idle
+[90m[main 2024-10-26T18:46:35.830Z][0m update#setState checking for updates
+[90m[main 2024-10-26T18:46:36.468Z][0m update#setState idle
+[90m[main 2024-10-26T19:46:35.806Z][0m update#setState checking for updates
+[90m[main 2024-10-26T19:46:36.454Z][0m update#setState idle
+[90m[main 2024-10-26T20:46:35.827Z][0m update#setState checking for updates
+[90m[main 2024-10-26T20:46:36.280Z][0m update#setState idle
+[90m[main 2024-10-26T21:46:36.023Z][0m update#setState checking for updates
+[90m[main 2024-10-26T21:46:36.512Z][0m update#setState idle
+[90m[main 2024-10-26T22:46:36.031Z][0m update#setState checking for updates
+[90m[main 2024-10-26T22:46:36.490Z][0m update#setState idle
+[90m[main 2024-10-26T23:46:36.005Z][0m update#setState checking for updates
+[90m[main 2024-10-26T23:46:36.500Z][0m update#setState idle
+[90m[main 2024-10-27T00:51:02.965Z][0m update#setState checking for updates
+[90m[main 2024-10-27T00:51:03.985Z][0m update#setState idle
+[90m[main 2024-10-27T01:51:03.069Z][0m update#setState checking for updates
+[90m[main 2024-10-27T01:51:03.521Z][0m update#setState idle
+[90m[main 2024-10-27T02:55:44.090Z][0m update#setState checking for updates
+[90m[main 2024-10-27T02:55:44.988Z][0m update#setState idle
+[90m[main 2024-10-27T03:55:44.253Z][0m update#setState checking for updates
+[90m[main 2024-10-27T03:55:44.771Z][0m update#setState idle
+[90m[main 2024-10-27T05:08:57.418Z][0m update#setState checking for updates
+[90m[main 2024-10-27T05:08:58.284Z][0m update#setState idle
+[90m[main 2024-10-27T06:23:46.223Z][0m update#setState checking for updates
+[90m[main 2024-10-27T06:23:47.154Z][0m update#setState idle
+[90m[main 2024-10-27T07:27:06.839Z][0m update#setState checking for updates
+[90m[main 2024-10-27T07:27:07.739Z][0m update#setState idle
+[90m[main 2024-10-27T08:28:40.093Z][0m update#setState checking for updates
+[90m[main 2024-10-27T08:28:41.114Z][0m update#setState idle
+[90m[main 2024-10-27T09:30:13.736Z][0m update#setState checking for updates
+[90m[main 2024-10-27T09:30:14.653Z][0m update#setState idle
+[90m[main 2024-10-27T10:31:45.786Z][0m update#setState checking for updates
+[90m[main 2024-10-27T10:31:46.756Z][0m update#setState idle
+[90m[main 2024-10-27T11:33:21.912Z][0m update#setState checking for updates
+[90m[main 2024-10-27T11:33:22.889Z][0m update#setState idle
+[90m[main 2024-10-27T12:48:19.256Z][0m update#setState checking for updates
+[90m[main 2024-10-27T12:48:20.180Z][0m update#setState idle
+[90m[main 2024-10-27T13:52:05.412Z][0m update#setState checking for updates
+[90m[main 2024-10-27T13:52:06.380Z][0m update#setState idle
+[90m[main 2024-10-27T15:05:09.680Z][0m update#setState checking for updates
+[90m[main 2024-10-27T15:05:10.737Z][0m update#setState idle
+[90m[main 2024-10-27T16:06:09.894Z][0m update#setState checking for updates
+[90m[main 2024-10-27T16:06:10.784Z][0m update#setState idle
+[90m[main 2024-10-27T17:06:09.798Z][0m update#setState checking for updates
+[90m[main 2024-10-27T17:06:10.345Z][0m update#setState idle
+[90m[main 2024-10-27T18:15:18.457Z][0m update#setState checking for updates
+[90m[main 2024-10-27T18:15:19.450Z][0m update#setState idle
+[90m[main 2024-10-27T19:16:51.487Z][0m update#setState checking for updates
+[90m[main 2024-10-27T19:16:52.277Z][0m update#setState idle
+[90m[main 2024-10-27T20:28:35.046Z][0m update#setState checking for updates
+[90m[main 2024-10-27T20:28:36.056Z][0m update#setState idle
+[90m[main 2024-10-27T21:30:07.829Z][0m update#setState checking for updates
+[90m[main 2024-10-27T21:30:08.740Z][0m update#setState idle
+[90m[main 2024-10-27T22:30:07.780Z][0m update#setState checking for updates
+[90m[main 2024-10-27T22:30:08.502Z][0m update#setState idle
+[90m[main 2024-10-27T23:30:07.700Z][0m update#setState checking for updates
+[90m[main 2024-10-27T23:30:08.536Z][0m update#setState idle
+[90m[main 2024-10-28T00:39:19.387Z][0m update#setState checking for updates
+[90m[main 2024-10-28T00:39:20.352Z][0m update#setState idle
+[90m[main 2024-10-28T01:45:56.428Z][0m update#setState checking for updates
+[90m[main 2024-10-28T01:45:57.323Z][0m update#setState idle
+[90m[main 2024-10-28T02:47:12.269Z][0m update#setState checking for updates
+[90m[main 2024-10-28T02:47:13.090Z][0m update#setState idle
+[90m[main 2024-10-28T03:48:14.400Z][0m update#setState checking for updates
+[90m[main 2024-10-28T03:48:15.208Z][0m update#setState idle
+[90m[main 2024-10-28T04:49:12.050Z][0m update#setState checking for updates
+[90m[main 2024-10-28T04:49:13.004Z][0m update#setState idle
+[90m[main 2024-10-28T05:51:36.765Z][0m update#setState checking for updates
+[90m[main 2024-10-28T05:51:37.672Z][0m update#setState idle
+[90m[main 2024-10-28T07:06:35.222Z][0m update#setState checking for updates
+[90m[main 2024-10-28T07:06:35.981Z][0m update#setState idle
+[90m[main 2024-10-28T08:21:29.978Z][0m update#setState checking for updates
+[90m[main 2024-10-28T08:21:30.824Z][0m update#setState idle
+[90m[main 2024-10-28T09:23:01.731Z][0m update#setState checking for updates
+[90m[main 2024-10-28T09:23:02.656Z][0m update#setState idle
+[90m[main 2024-10-28T10:29:14.638Z][0m update#setState checking for updates
+[90m[main 2024-10-28T10:29:15.618Z][0m update#setState idle
+[90m[main 2024-10-28T11:30:48.896Z][0m update#setState checking for updates
+[90m[main 2024-10-28T11:30:49.714Z][0m update#setState idle
+[90m[main 2024-10-28T12:44:22.718Z][0m update#setState checking for updates
+[90m[main 2024-10-28T12:44:23.692Z][0m update#setState idle
+[90m[main 2024-10-28T13:55:39.016Z][0m update#setState checking for updates
+[91m[main 2024-10-28T13:55:39.022Z][0m UpdateService error: The Internet connection appears to be offline.
+[90m[main 2024-10-28T13:55:39.022Z][0m update#setState idle
+[90m[main 2024-10-28T14:55:38.979Z][0m update#setState checking for updates
+[90m[main 2024-10-28T14:55:39.574Z][0m update#setState idle
+[90m[main 2024-10-28T15:33:20.985Z][0m Extension host with pid 25650 exited with code: 0, signal: unknown.
+[91m[main 2024-10-28T15:33:20.986Z][0m [UtilityProcessWorker]: terminated unexpectedly with code 1875528128, signal: unknown
+[91m[main 2024-10-28T15:33:42.390Z][0m [UtilityProcessWorker]: terminated unexpectedly with code 1875528128, signal: unknown
+[90m[main 2024-10-28T15:33:42.391Z][0m Extension host with pid 26064 exited with code: 0, signal: unknown.
