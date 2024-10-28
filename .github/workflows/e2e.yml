@@ -1,0 +1,33 @@
+name: Run E2E Tests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  e2e_tests:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Run Chromium E2E Tests
+        env:
+          CURRENTS_API_URL: https://cy-staging.currents.dev
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --project=chromium
+
+      - name: Wait for 60 seconds
+        run: sleep 60
+
+      - name: Run Firefox E2E Tests
+        env:
+          CURRENTS_API_URL: https://cy-staging.currents.dev
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --project=firefox
