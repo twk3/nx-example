@@ -34,14 +34,9 @@
       }
     },
     {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
       "plugin": "@nx/playwright/plugin",
       "options": {
+        "ciTargetName": "e2e-ci",
         "targetName": "e2e"
       }
     },
@@ -73,5 +68,7 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "useInferencePlugins": true,
+  "nxCloudId": "6720103de658d80bd1fe2506"
 }
