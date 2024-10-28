@@ -20,7 +20,7 @@ const baseURL = process.env['BASE_URL'] || 'http://localhost:4300';
 const currentsConfig: CurrentsConfig = {
   recordKey: 'AcceNBS8GCEFdr4C', // 📖 https://currents.dev/readme/guides/record-key
   projectId: 'ghc2jY', // get one at https://app.currents.dev
-  ciBuildId: '107'
+  ciBuildId: '111'
 };
 
 export default defineConfig({
@@ -44,16 +44,6 @@ export default defineConfig({
       name: 'chromium',
       use: { ...devices['Desktop Chrome'] },
       testMatch: ['example.spec.ts'],
-    },
-    {
-      name: 'firefox',
-      use: { ...devices['Firefox'] },
-      testMatch: ['example2.spec.ts'],
-    },
-    {
-      name: 'chrome',
-      use: { ...devices['Chrome'] },
-      testMatch: ['example3.spec.ts'],
-    },
+    }
   ],
 });

@@ -27,7 +27,7 @@ jobs:
       - name: Wait for 60 seconds
         run: sleep 60
 
-      - name: Run Firefox E2E Tests
+      - name: Run All E2E Tests
         env:
           CURRENTS_API_URL: https://cy-staging.currents.dev
-        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e --project=firefox
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev npx nx run-many -t e2e
