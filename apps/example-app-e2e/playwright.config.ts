@@ -20,7 +20,7 @@ const baseURL = process.env['BASE_URL'] || 'http://localhost:4300';
 const currentsConfig: CurrentsConfig = {
   recordKey: 'AcceNBS8GCEFdr4C', // 📖 https://currents.dev/readme/guides/record-key
   projectId: 'ghc2jY', // get one at https://app.currents.dev
-  ciBuildId: '112'
+  ciBuildId: '113'
 };
 
 export default defineConfig({
