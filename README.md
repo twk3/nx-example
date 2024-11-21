@@ -14,3 +14,5 @@ The `--parallel=2` will execute each project in different machines parallelizing
 ## Considerations
 - The `pwc-p` is being used as executed command in `project.json` files
 - When using `CURRENTS_CI_BUILD_ID` env variable is will generate a single run for all your parallelized project
+- IMPORTANT: It is not advisable to use the same Playwright project names across NX projects because it can cause a mismatch in the reported results
+- [See this job](https://github.com/miguelangaranocurrents/nx-example/actions/runs/11958598465) to understand how parallelized orchestration works with NX
