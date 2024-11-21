@@ -8,7 +8,6 @@ on:
     branches:
       - main
   workflow_dispatch:
-  
 
 jobs:
   e2e_tests:
@@ -29,5 +28,5 @@ jobs:
           CURRENTS_API_URL: https://cy-staging.currents.dev
           CURRENTS_PROJECT_ID: ${{secrets.CURRENTS_PROJECT_ID}}
           CURRENTS_RECORD_KEY: ${{secrets.CURRENTS_RECORD_KEY}}
-          CURRENTS_CI_BUILD_ID: ${{ github.run_id }}-${{ matrix.shard }}
-        run: npx nx run-many -t e2e --verbose --parallel=2
+          CURRENTS_CI_BUILD_ID: ${{ github.run_id }}-${{ github.sha }}
+        run: npx nx reset | true && npx nx run-many -t e2e --verbose --parallel=2
