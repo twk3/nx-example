@@ -31,4 +31,4 @@ jobs:
           CURRENTS_RECORD_KEY: ${{secrets.CURRENTS_RECORD_KEY}}
           CURRENTS_CI_BUILD_ID: ${{ github.run_id }}-${{ github.sha }}
           NX_CLOUD_ACCESS_TOKEN: ''
-        run: npx nx run-many -t e2e --verbose --parallel=2
+        run: CURRENTS_API_URL=https://cy-staging.currents.dev CURRENTS_PROJECT_ID=${{secrets.CURRENTS_PROJECT_ID}} CURRENTS_RECORD_KEY=${{secrets.CURRENTS_RECORD_KEY}} CURRENTS_CI_BUILD_ID=${{ github.run_id }}-${{ github.sha }} npx nx run-many -t e2e --verbose --parallel=2
