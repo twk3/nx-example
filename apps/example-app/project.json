@@ -15,13 +15,7 @@
             "command": "npx playwright test --list --project=chrome"
           },
           {
-            "command": "npx pwc-p",
-            "env": {
-              "CURRENTS_PROJECT_ID": "${CURRENTS_PROJECT_ID}",
-              "CURRENTS_RECORD_KEY": "${CURRENTS_RECORD_KEY}",
-              "CURRENTS_API_URL": "${CURRENTS_API_URL}",
-              "CURRENTS_CI_BUILD_ID": "${CURRENTS_CI_BUILD_ID}"
-            }
+            "command": "npx pwc-p"
           }
         ]
       }

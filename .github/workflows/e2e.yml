@@ -30,5 +30,4 @@ jobs:
           CURRENTS_PROJECT_ID: kajqCX
           CURRENTS_RECORD_KEY: 9bqJY1huXL2l3ONF
           CURRENTS_CI_BUILD_ID: ${{ github.run_id }}-${{ github.sha }}
-          NX_CLOUD_ACCESS_TOKEN: ''
         run: npx nx run-many -t e2e --verbose --parallel=2
