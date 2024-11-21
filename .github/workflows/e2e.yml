@@ -32,4 +32,4 @@ jobs:
           CURRENTS_PROJECT_ID: ${{secrets.CURRENTS_PROJECT_ID}}
           CURRENTS_RECORD_KEY: ${{secrets.CURRENTS_RECORD_KEY}}
           CURRENTS_CI_BUILD_ID: ${{ github.run_id }}-${{ github.sha }}
-        run: npx nx run-many -t e2e --verbose --parallel=2 --base=main~1 --head=HEAD
+        run: npx nx run-many -t e2e --verbose --parallel=2 --base=main~1 --head=HEAD~1
