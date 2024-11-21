@@ -17,21 +17,21 @@ const baseURL = process.env['BASE_URL'] || 'http://localhost:4300';
  * See https://playwright.dev/docs/test-configuration.
  */
 
-const currentsConfig: CurrentsConfig = {
-  recordKey: '9bqJY1huXL2l3ONF', // 📖 https://currents.dev/readme/guides/record-key
-  projectId: 'kajqCX', // get one at https://app.currents.dev
-  ciBuildId: '112',
-};
+// const currentsConfig: CurrentsConfig = {
+//   recordKey: 'key', // 📖 https://currents.dev/readme/guides/record-key
+//   projectId: 'id', // get one at https://app.currents.dev
+//   ciBuildId: '',
+// };
 
 export default defineConfig({
-  ...nxE2EPreset(__filename, { testDir: './src' }),
+  ...nxE2EPreset(__filename, { testDir: './src/app' }),
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL,
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
   },
-  reporter: [currentsReporter(currentsConfig)],
+  // reporter: [currentsReporter(currentsConfig)],
   /* Run your local dev server before starting the tests */
   webServer: {
     command: 'npx nx run example-app:preview',
@@ -41,7 +41,7 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
+      name: 'chrome',
       use: { ...devices['Desktop Chrome'] },
     },
   ],
