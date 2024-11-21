@@ -7,9 +7,17 @@
   "// targets": "to see all targets run: nx show project example-app-e2e --web",
   "targets": {
     "e2e": {
-      "executor": "@nx/playwright:playwright",
+      "executor": "nx:run-commands",
       "options": {
-        "config": "apps/example-app-e2e/playwright.config.ts"
+        "config": "apps/example-app-e2e/playwright.config.ts",
+        "commands": [
+          {
+            "command": "npx playwright test --list --project=chromium"
+          },
+          {
+            "command": "npx pwc-p"
+          }
+        ]
       }
     }
   }

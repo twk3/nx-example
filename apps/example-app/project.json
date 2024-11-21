@@ -5,5 +5,20 @@
   "projectType": "application",
   "tags": [],
   "// targets": "to see all targets run: nx show project example-app --web",
-  "targets": {}
+  "targets": {
+    "e2e": {
+      "executor": "nx:run-commands",
+      "options": {
+        "config": "apps/example-app/playwright.config.ts",
+        "commands": [
+          {
+            "command": "npx playwright test --list --project=chrome"
+          },
+          {
+            "command": "npx pwc-p"
+          }
+        ]
+      }
+    }
+  }
 }

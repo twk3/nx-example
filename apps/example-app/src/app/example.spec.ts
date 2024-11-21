@@ -1,7 +1,6 @@
 import { expect, test } from "@playwright/test";
 
 test("basic test @basic", async ({ page }) => {
-  test.skip();
   await page.goto("https://todomvc.com/examples/backbone/dist/");
 
   // Use locators to represent a selector and re-use them

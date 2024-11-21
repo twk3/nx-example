@@ -20,11 +20,11 @@ const baseURL = process.env['BASE_URL'] || 'http://localhost:4300';
 // const currentsConfig: CurrentsConfig = {
 //   recordKey: 'key', // 📖 https://currents.dev/readme/guides/record-key
 //   projectId: 'id', // get one at https://app.currents.dev
-//   ciBuildId: ''
+//   ciBuildId: '',
 // };
 
 export default defineConfig({
-  ...nxE2EPreset(__filename, { testDir: './src' }),
+  ...nxE2EPreset(__filename, { testDir: './src/app' }),
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     baseURL,
@@ -41,7 +41,7 @@ export default defineConfig({
   },
   projects: [
     {
-      name: 'chromium',
+      name: 'chrome',
       use: { ...devices['Desktop Chrome'] },
     },
   ],

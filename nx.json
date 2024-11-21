@@ -14,7 +14,13 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "671b820fe0832022a7b1deb6",
+  "tasksRunnerOptions": {
+    "default": {
+      "options": {
+        "useCloud": false
+      }
+    }
+  },
   "plugins": [
     {
       "plugin": "@nx/vite/plugin",
@@ -28,14 +34,9 @@
       }
     },
     {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
       "plugin": "@nx/playwright/plugin",
       "options": {
+        "ciTargetName": "e2e-ci",
         "targetName": "e2e"
       }
     },
@@ -67,5 +68,7 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "useInferencePlugins": true,
+  "nxCloudId": "6720103de658d80bd1fe2506"
 }
