@@ -35,7 +35,7 @@ jobs:
         with:
           or8n: true
           previous-ci-build-id: miguelangaranocurrents/nx-example-11977063661-1
-          pw-output-dir: basic/test-results
+          pw-output-dir: .
       - name: Playwright Tests
         run: |
           echo ${{ steps.last-failed-action.outputs.extra-pw-flags }}
