@@ -38,8 +38,8 @@ jobs:
           pw-output-dir: ./
       - name: Playwright Tests
         run: |
-          echo "${{ steps.last-failed-action }}"
-          echo "${{ steps.last-failed-action.outputs }}"
+          echo "${{ toJson(steps.last-failed-action) }}"
+          echo "${{ toJson(steps.last-failed-action.outputs) }}"
           COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }} --last-failed"
           echo "Running command: $COMMAND"
           $COMMAND
