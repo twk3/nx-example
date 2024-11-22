@@ -36,6 +36,7 @@ jobs:
         uses: currents-dev/playwright-last-failed@v1
         with:
           or8n: true
+          debug: true
           pw-output-dir: ./dist/playwright/example-app/test-results
       - name: Playwright Tests
         run: |
