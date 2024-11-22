@@ -15,7 +15,7 @@
             "command": "npx playwright test --list --project=chrome"
           },
           {
-            "command": "npx pwc-p {args.pwFlags}"
+            "command": "npx pwc-p {args.pwFlags:-}"
           }
         ]
       }
