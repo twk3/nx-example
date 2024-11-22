@@ -35,10 +35,11 @@ jobs:
         with:
           or8n: true
           previous-ci-build-id: miguelangaranocurrents/nx-example-11977063661-1
-          pw-output-dir: .
+          pw-output-dir: ./
       - name: Playwright Tests
         run: |
-          echo ${{ steps.last-failed-action.outputs.extra-pw-flags }}
+          echo ${{ steps.last-failed-action }}
+          echo ${{ steps.last-failed-action.outputs }}
           COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }} --last-failed"
           echo "Running command: $COMMAND"
           $COMMAND
