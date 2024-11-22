@@ -16,6 +16,7 @@ jobs:
       CURRENTS_CI_BUILD_ID: ${{ github.repository }}-${{ github.run_id }}-${{ github.run_attempt }}
       CURRENTS_API_KEY: FlLFehSQxlNkBlh7C2X2E1RT43IiHNpF3vD578vVzQJUWHHuvsifXHkkQgTz3mtg
       CURRENTS_API_URL: https://cy-staging.currents.dev
+      CURRENTS_REST_API_URL: https://api-staging.currents.dev
     steps:
       - uses: actions/checkout@v4
         with:
@@ -29,6 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           npm install
+          npx playwright install
       - name: Playwright Last Failed action
         id: last-failed-action
         uses: currents-dev/playwright-last-failed@v1
