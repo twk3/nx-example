@@ -39,6 +39,6 @@ jobs:
         run: |
           echo "${{ toJson(steps.last-failed-action) }}"
           echo "${{ toJson(steps.last-failed-action.outputs) }}"
-          COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }} --last-failed"
+          COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }}"
           echo "Running command: $COMMAND"
           $COMMAND
