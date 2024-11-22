@@ -9,7 +9,7 @@ jobs:
       fail-fast: false
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    container: mcr.microsoft.com/playwright:latest
+    container: mcr.microsoft.com/playwright:v1.49.0-jammy
     env:
       CURRENTS_PROJECT_ID: ghc2jY
       CURRENTS_RECORD_KEY: AcceNBS8GCEFdr4C
@@ -39,6 +39,7 @@ jobs:
           pw-output-dir: ./dist/playwright/example-app/test-results
       - name: Playwright Tests
         run: |
+          ls ./dist/playwright/example-app/test-results
           echo "${{ toJson(steps.last-failed-action) }}"
           echo "${{ toJson(steps.last-failed-action.outputs) }}"
           COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }}"
