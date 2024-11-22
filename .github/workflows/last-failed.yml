@@ -34,8 +34,7 @@ jobs:
         uses: currents-dev/playwright-last-failed@v1
         with:
           or8n: true
-          previous-ci-build-id: miguelangaranocurrents/nx-example-11977063661-1
-          pw-output-dir: ./
+          pw-output-dir: ./dist/playwright/example-app/test-results
       - name: Playwright Tests
         run: |
           echo "${{ toJson(steps.last-failed-action) }}"
