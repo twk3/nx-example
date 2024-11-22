@@ -39,6 +39,6 @@ jobs:
       - name: Playwright Tests
         run: |
           echo ${{ steps.last-failed-action.outputs.extra-pw-flags }}
-          COMMAND="npx nx run-many -t e2e --verbose --parallel=2 --args=\"--pwFlags='${{ steps.last-failed-action.outputs.extra-pw-flags }}'\""
+          COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }} --last-failed"
           echo "Running command: $COMMAND"
           $COMMAND
