@@ -34,11 +34,11 @@ jobs:
         uses: currents-dev/playwright-last-failed@v1
         with:
           or8n: true
-          # previous-ci-build-id: default is ${{ github.repository }}-${{ github.run_id }}-${{ github.run_attempt - 1 }}
+          previous-ci-build-id: miguelangaranocurrents/nx-example-11977063661-1
           pw-output-dir: basic/test-results
       - name: Playwright Tests
         run: |
           echo ${{ steps.last-failed-action.outputs.extra-pw-flags }}
-          COMMAND="npx nx run-many -t e2e --verbose --parallel=2"
+          COMMAND="npx nx run-many -t e2e --verbose --parallel=2 --args=\"--pwFlags='${{ steps.last-failed-action.outputs.extra-pw-flags }}'\""
           echo "Running command: $COMMAND"
           $COMMAND
