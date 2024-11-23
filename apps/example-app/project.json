@@ -12,7 +12,7 @@
         "config": "apps/example-app/playwright.config.ts",
         "commands": [
           {
-            "command": "npx pwc-p"
+            "command": "npx pwc"
           }
         ]
       }
