@@ -40,7 +40,7 @@ jobs:
           pw-output-dir: dist/playwright/example-app/test-results
       - name: Playwright Tests
         run: |
-          cat dist/playwright/example-app/test-results || true
+          cat dist/playwright/example-app/test-results/.last-run.json || true
           echo "${{ toJson(steps.last-failed-action) }}"
           echo "${{ toJson(steps.last-failed-action.outputs) }}"
           COMMAND="npx nx run-many -t e2e --verbose --parallel=2 ${{ steps.last-failed-action.outputs.extra-pw-flags }}"

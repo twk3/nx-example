@@ -12,7 +12,7 @@
         "config": "apps/example-app-e2e/playwright.config.ts",
         "commands": [
           {
-            "command": "npx pwc-p"
+            "command": "npx pwc-p --pwc-debug"
           }
         ]
       }

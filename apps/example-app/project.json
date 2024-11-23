@@ -12,10 +12,7 @@
         "config": "apps/example-app/playwright.config.ts",
         "commands": [
           {
-            "command": "npx playwright test --list --project=chrome"
-          },
-          {
-            "command": "npx pwc-p"
+            "command": "npx pwc-p --pwc-debug"
           }
         ]
       }
