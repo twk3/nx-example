@@ -10,6 +10,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@currents/cmd": "^1.3.0-beta.0",
     "@eslint/js": "^9.8.0",
     "@nx/cypress": "20.1.2",
     "@nx/devkit": "20.1.2",
